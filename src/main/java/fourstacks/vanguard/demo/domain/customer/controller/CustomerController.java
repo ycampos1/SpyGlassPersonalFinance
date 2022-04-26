@@ -33,14 +33,6 @@ public class CustomerController {
     }
 
 
-//    @PutMapping("")
-//    public ResponseEntity<Customer> updateGoal(@RequestBody Goal goal) throws CustomerNotFoundException, GoalNotFoundException {
-//        goal = goalService.getById(goal.getId());
-//        Customer response = customerService.createGoal(goal.getCustomer(), goal);
-//        log.info(response.toString());
-//        return new ResponseEntity<>(response, HttpStatus.OK);
-//    }
-
 
     @PutMapping("")
     public ResponseEntity<?> updateCustomer(@RequestBody Customer customer){
